@@ -78,3 +78,8 @@ print(
 print(
     f"모델 B (최근 100년 학습) -> MAE: {mae_100:.4f} | MSE: {mse_100:.4f} | R²: {r2_100:.4f}"
 )
+
+import matplotlib
+
+matplotlib.use("Agg")
+import matplotlib.pyplot as plt
